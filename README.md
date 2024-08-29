@@ -5,7 +5,7 @@ This project is an example of training generative models for customized data and
 1. [Overview](#overview)
 2. [Installation](#installation)
 3. [Training](#training)
-4. [Generate an image](#Generate_an_image)
+4. [Generate an image](#Generate-an-image)
 
 ## Overview
 This project involves the following key steps:
