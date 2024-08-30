@@ -35,7 +35,8 @@ docker build -t stylegan2 .
 docker run --shm-size=8g --gpus all -v path/to/desired/directory:/workspace -it --rm stylegan2
 ```
 
-## Training  [The trained model can be downloaded from Google Drive.](https://drive.google.com/drive/folders/1ZfcyJhiYpgQc-v0ysRsyFCeW7r9O9fIB?usp=sharing)
+## Training  
+[The trained model can be downloaded from Google Drive.](https://drive.google.com/drive/folders/1ZfcyJhiYpgQc-v0ysRsyFCeW7r9O9fIB?usp=sharing)
 ```bash
 python run_training.py --num-gpus=2 --data-dir=/workspace/stylegan2/cat_dataset --config=config-f --dataset=tfrecord --total-kimg=2334
 ```
